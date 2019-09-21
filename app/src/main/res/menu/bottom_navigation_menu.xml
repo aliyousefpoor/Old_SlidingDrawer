@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+       android:id="@+id/action1"
+        android:title="picture"
+        android:icon="@drawable/picture"
+        >
+    </item>
+
+    <item
+        android:id="@+id/action2"
+        android:title="button"
+        android:icon="@drawable/ic_menu_black_24dp"
+        >
+    </item>
+
+    <item
+        android:id="@+id/action3"
+        android:title="text"
+        android:icon="@drawable/sms"
+        >
+    </item>
+
+    <item
+        android:id="@+id/action4"
+        android:title="edittext"
+        android:icon="@drawable/sms"
+        >
+    </item>
+
+</menu>

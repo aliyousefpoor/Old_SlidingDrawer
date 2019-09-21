@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/color1">
+        <include layout="@layout/toolbar"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="شماره را وارد کنید "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:id="@+id/ednumber"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#111"
+                android:textSize="23dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="متن پیام را وارد کنید "
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <EditText
+                android:id="@+id/edtext"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#111"
+                android:textSize="23dp"
+                android:layout_marginTop="15dp"
+                />
+            <Button
+                android:id="@+id/send"
+                android:layout_width="120dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="ارسال"
+                android:textSize="20dp"
+                android:background="@color/color1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

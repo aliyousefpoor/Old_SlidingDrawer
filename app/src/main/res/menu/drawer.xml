@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/set"
+            android:title="تنظیمات"
+
+            >
+        </item>
+
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="درباره ی ما"
+
+            >
+        </item>
+
+    </group>
+
+    <item android:title="منوها">
+
+<menu>
+    <item
+        android:id="@+id/sms"
+        android:icon="@drawable/sms"
+        android:title="ارسال پیام"
+
+        >
+    </item>
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/sms"
+            android:title="ارتباط با ما"
+
+            >
+        </item>
+
+</menu>
+
+    </item>
+
+</menu>
