@@ -1,5 +1,6 @@
 package com.example.ali.slidingdrawer.Activity;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_black_24dp);
+       // getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_black_24dp);
 
         navigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
 
@@ -132,6 +133,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+   // private ActionBar getSupportActionBar() {
+   // }
+
     @Override
     public void onBackPressed() {
 
@@ -144,4 +148,3 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-
