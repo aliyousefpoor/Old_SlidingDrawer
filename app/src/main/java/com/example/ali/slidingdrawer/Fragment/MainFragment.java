@@ -1,10 +1,12 @@
 package com.example.ali.slidingdrawer.Fragment;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
 
 import com.example.ali.slidingdrawer.R;
 
@@ -12,7 +14,7 @@ import com.example.ali.slidingdrawer.R;
  * Created by Ali on 7/28/2017.
  */
 
-public class MainFragment extends Fragment  {
+public class MainFragment extends Fragment {
 
     public static MainFragment newInstance() {
         MainFragment fragment = new MainFragment();
